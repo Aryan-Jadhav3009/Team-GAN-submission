@@ -1,0 +1,7 @@
+Device-ID/User-ID,Timestamp,Heart Rate,Heart Rate Below/Above Threshold,Blood Pressure,Blood Pressure Below/Above Threshold,Glucose Levels,Glucose Levels Below/Above Threshold,Oxygen Saturation,SpO2 Below Threshold,Alert Triggered,Caregiver Notified (Yes/No)
+D1000,1/22/2025 20:4,116,Yes,118/79 mmHg,Yes,141,Yes,98,No,Yes,Yes
+D1001,1/16/2025 12:2,119,Yes,105/77 mmHg,No,146,Yes,93,No,Yes,Yes
+D1002,############,97,No,120/67 mmHg,Yes,133,No,97,No,Yes,Yes
+D1003,############,113,Yes,138/65 mmHg,Yes,82,No,97,No,Yes,Yes
+D1004,############,88,No,108/69 mmHg,No,146,Yes,97,No,Yes,Yes
+

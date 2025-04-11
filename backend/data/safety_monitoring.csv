@@ -1,0 +1,38 @@
+Device-ID/User-ID,Timestamp,Movement Activity,Fall Detected,Impact Force Level,Post-Fall Inactivity Duration (Seconds),Location,Alert Triggered,Caregiver Notified (Yes/No)
+D1000,01-07-2025 16:04,No Movement,No,-,0,Kitchen,No,No
+D1001,1/20/2025 15:45,Lying,No,-,0,Living Room,No,No
+D1002,01-02-2025 02:42,No Movement,No,-,0,Bedroom,No,No
+D1003,01-01-2025 22:36,Lying,No,-,0,Kitchen,No,No
+D1004,01-03-2025 16:30,No Movement,No,-,0,Bedroom,No,No
+D1005,1/19/2025 12:13,Sitting,No,-,0,Bedroom,No,No
+D1006,01-04-2025 10:58,Lying,No,-,0,Bathroom,No,No
+D1007,1/21/2025 7:31,Lying,No,-,0,Bedroom,No,No
+D1008,01-10-2025 23:56,Sitting,No,-,0,Kitchen,No,No
+D1009,01-04-2025 16:16,Sitting,No,-,0,Kitchen,No,No
+D1010,1/13/2025 7:05,Walking,No,-,0,Bedroom,No,No
+D1011,01-09-2025 06:32,Sitting,No,-,0,Bathroom,No,No
+D1012,01-01-2025 22:34,No Movement,No,-,0,Kitchen,No,No
+D1013,1/17/2025 10:52,Walking,No,-,0,Living Room,No,No
+D1014,1/29/2025 1:59,Walking,No,-,0,Bedroom,No,No
+D1015,1/23/2025 2:14,Sitting,No,-,0,Bedroom,No,No
+D1016,1/13/2025 10:48,Walking,No,-,0,Living Room,No,No
+D1017,01-04-2025 12:16,Sitting,No,-,0,Bathroom,No,No
+D1018,01-06-2025 08:18,No Movement,No,-,0,Living Room,No,No
+D1019,01-11-2025 21:01,Sitting,No,-,0,Living Room,No,No
+D1020,01-01-2025 16:18,Walking,No,-,0,Bathroom,No,No
+D1021,1/29/2025 17:34,Walking,No,-,0,Living Room,No,No
+D1022,1/19/2025 19:46,No Movement,Yes,Medium,463,Bathroom,Yes,Yes
+D1023,01-01-2025 20:45,Lying,No,-,0,Kitchen,No,No
+D1024,01-04-2025 07:30,No Movement,No,-,0,Bedroom,No,No
+D1025,01-02-2025 02:26,No Movement,No,-,0,Bedroom,No,No
+D1026,1/21/2025 17:02,Lying,No,-,0,Living Room,No,No
+D1027,1/21/2025 2:22,No Movement,No,-,0,Bathroom,No,No
+D1028,01-03-2025 22:44,No Movement,Yes,Low,94,Kitchen,No,No
+D1029,1/18/2025 11:56,Sitting,No,-,0,Bathroom,No,No
+D1030,01-09-2025 16:43,No Movement,No,-,0,Living Room,No,No
+D1031,01-05-2025 20:19,Walking,No,-,0,Bedroom,No,No
+D1032,1/15/2025 12:59,Walking,No,-,0,Living Room,No,No
+D1033,1/17/2025 15:23,No Movement,No,-,0,Bathroom,No,No
+D1034,1/17/2025 14:42,No Movement,No,-,0,Bedroom,No,No
+D1035,01-05-2025 18:31,Lying,No,-,0,Bedroom,No,No
+D1036,01-10-2025 13:30,Lying,No,-,0,Kitchen,No,No

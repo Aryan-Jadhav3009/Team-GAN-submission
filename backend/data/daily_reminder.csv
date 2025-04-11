@@ -1,0 +1,7 @@
+Device-ID/User-ID,Timestamp,Reminder Type,Scheduled Time,Reminder Sent,Acknowledged (Yes/No)
+D1000,01-02-2025 11:25,Exercise,13:00:00,No,No
+D1001,01-03-2025 02:52,Hydration,13:00:00,Yes,Yes
+D1002,01-08-2025 13:50,Appointment,13:30:00,No,No
+D1003,01-05-2025 05:16,Exercise,8:00:00,No,No
+D1004,01-01-2025 04:20,Medication,11:30:00,No,No
+
