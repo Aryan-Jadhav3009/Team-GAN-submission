@@ -17,7 +17,7 @@ EMAIL_NOTIFICATIONS_ENABLED = True
 
 # Email sender details (use an app password for Gmail)
 EMAIL_SENDER = "aretos248@gmail.com"
-EMAIL_PASSWORD = "kratosisgreat@1"  # For Gmail, use an App Password
+EMAIL_PASSWORD = "password"  # For Gmail, use an App Password
 
 # Email recipients (comma-separated for multiple recipients)
 EMAIL_RECIPIENTS = ["aretos248@gmail.com"]
