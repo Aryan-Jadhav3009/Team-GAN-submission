@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server"
-
+const API_BASE = process.env.NEXT_PUBLIC_API_URL;
 export async function GET() {
   try {
     // Try to call the Flask backend with a timeout
     const controller = new AbortController()
-    const timeoutId = setTimeout(() => controller.abort(), 3000) // 3 second timeout
-
-    const response = await fetch("http://localhost:5000/api/health-data", {
+    const timeoutId = setTimeout(() => controller.abort(), 10000) // 3 second timeout
+    
+    const response = await fetch(`${API_BASE}/api/health-data`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -109,7 +109,7 @@ export async function POST(req: Request) {
     const controller = new AbortController()
     const timeoutId = setTimeout(() => controller.abort(), 500000) // 5 second timeout
 
-    const response = await fetch("http://localhost:5000/api/ai/health-question", {
+    const response = await fetch(`${API_BASE}/api/ai/health-question`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
