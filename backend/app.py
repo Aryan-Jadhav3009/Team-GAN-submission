@@ -3,7 +3,6 @@ from flask_cors import CORS
 import csv
 import os
 import time
-import ollama  # Make sure you have installed the Ollama Python package
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -16,11 +15,10 @@ import datetime
 EMAIL_NOTIFICATIONS_ENABLED = True
 
 # Email sender details (use an app password for Gmail)
-EMAIL_SENDER = "aretos248@gmail.com"
-EMAIL_PASSWORD = "password"  # For Gmail, use an App Password
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL_SENDER = os.environ.get("EMAIL_SENDER")
+EMAIL_RECIPIENTS = os.environ.get("EMAIL_RECIPIENTS", "").split(",")
 
-# Email recipients (comma-separated for multiple recipients)
-EMAIL_RECIPIENTS = ["aretos248@gmail.com"]
 
 # SMTP server settings (for Gmail)
 SMTP_SERVER = "smtp.gmail.com"
@@ -466,4 +464,5 @@ def test_email():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", debug=False, port=port)
